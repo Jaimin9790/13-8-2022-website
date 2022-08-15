@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create New Account</title>
+    <style>
+        body{
+            background-image: url('../Prectise/3.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        h1{
+            color: brown;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            background-color: rgba(239, 163, 102, 0.2);
+            padding: 20px;
+            color: brown;
+        }
+        #Add{
+            height: 80px;
+        }                
+    </style>
+</head>
+<body>
+    <h1 align="center">Welcome To PhotopiX</h1>
+    <div class="form">
+        <table align="center">
+            <tr>
+                <td colspan="2" align="center"><h2>PhotopiX Registrtion Form</h2></td>  <br/><br/>
+
+            </tr>
+            <tr>
+                <td><label for="Fn">First Name</label></td>
+                <td><input type="text" id="Fn"></td>
+            </tr>
+            <tr>
+               <td> <label for="Ln">Last Name</label></td>
+                <td><input type="text" id="Ln"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td><input type="radio" name="Gender">Male<input type="radio" name="Gender">Female</td>
+            </tr>
+            <tr>
+                <td><label for="con">Mobile No</label></td>
+                <td><input type="text" value="+91" size="1" readonly>&nbsp;<input type="tel" id="con" size="10"></td>
+            </tr>
+            <tr>
+                <td><label for="Add">Address</label></td>
+                <td><input type="text" id="Add"></td>                
+            </tr>
+            <tr>
+                <td><label for="Hobbies"></label></td>
+                <td><input type="Checkbox">Sport <input type="Checkbox">Gaming<br><input type="checkbox">Reading<input type="checkbox">Dancing<br><input type="checkbox">Sketching</td>
+            </tr>
+            <tr>
+                <td><label for="Date">Date</label></td>
+                <td><input type="Date"></td>
+            </tr>
+            <tr>
+                <td><label for="Age">Age</label></td>
+                <td><input type="text" size="2"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td>
+                    <select name="" id="city">
+                        <option value="">Bhavnagr</option>
+                        <option value="">Ahemdabad</option>
+                        <option value="">Surat</option>
+                        <option value="">Mahesana</option>
+                        <option value="">Rajkot</option>
+                        <option value="">Vadodara</option>
+                    </select>
+                </td>                
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="./table.html">
+                        <input type="button" value="submit">
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
